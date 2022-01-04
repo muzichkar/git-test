@@ -1,0 +1,138 @@
+.container-time {
+	height: 200px;
+	position: relative;
+}
+.box-button {
+	display: flex;
+	justify-content: space-evenly;
+}
+button {
+	width: 100px;
+	height: 50px;
+	background-color: red;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+.container-box {
+	height: 500px;
+	display: flex;
+	justify-content: space-evenly;
+}
+#cg {
+	background-color: seagreen;
+}
+
+#start,
+#end {
+	width: 400px;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	box-shadow: 0px 0px 10px 10px rgb(121, 98, 98);
+}
+.box,
+.boxx {
+	width: 100px;
+	height: 100px;
+	font-size: 0;
+}
+#l1 {
+	background-image: url("../img/icon-globe-400px.png");
+}
+#l2 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 33% 0%;
+}
+#l3 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 66% 0%;
+}
+#l4 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 99% 0%;
+}
+#l5 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 0% 33%;
+}
+
+#l6 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 33% 33%;
+}
+#l7 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 66% 33%;
+}
+#l8 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 99% 33%;
+}
+#l9 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 0% 66%;
+}
+
+#l10 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 33% 66%;
+}
+#l11 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 66% 66%;
+}
+#l12 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 99% 66%;
+}
+#l13 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 0% 99%;
+}
+
+#l14 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 33% 99%;
+}
+#l15 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 66% 99%;
+}
+#l16 {
+	background-image: url("../img/icon-globe-400px.png");
+	background-position: 99% 99%;
+}
+
+.timer {
+	font-size: 45px;
+	text-align: center;
+}
+.modal-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgb(134, 128, 128, 0.5);
+	z-index: 2;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.checkbut {
+	display: none;
+	height: 150px;
+	width: 800px;
+	background-color: blanchedalmond;
+	text-align: center;
+	font-size: 30px;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px 10px rgb(101, 99, 102);
+}
+.block {
+	display: flex;
+}
+.block1 {
+	display: block;
+}
